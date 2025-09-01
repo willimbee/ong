@@ -1,594 +1,453 @@
 <!DOCTYPE html>
 <html lang="en" translate="no">
+
 <head>
   <meta name="google" content="notranslate">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Thrive Together Initiative</title>
-    <meta name="title" content="Thrive Together Initiative" />
+  <title>Thrive Together Initiative</title>
+  <meta name="title" content="Thrive Together Initiative" />
 
-    <!-- 
+  <!-- 
     - favicon
   -->
-    <link
-      rel="shortcut icon"
-      href="assets/images/logo.png"
-      type="image/svg+xml"
-    />
+  <link rel="shortcut icon" href="assets/images/logo.png" type="image/svg+xml" />
 
-    <!-- 
+  <!-- 
     - custom css link
   -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 
-    <!-- 
+  <!-- 
     - google font link
   -->
-    <!--=============== REMIXICONS ===============-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
-      crossorigin=""
-    />
+  <!--=============== REMIXICONS ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="" />
 
-    <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.html" />
-    <link rel="preconnect" href="https://fonts.googleapis.com/" />
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&amp;family=Poppins:wght@400;500&amp;display=swap"
-      rel="stylesheet"
-    />
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com/" />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&amp;family=Poppins:wght@400;500&amp;display=swap"
+    rel="stylesheet" />
 
-    <!-- 
+  <!-- 
     - preload images
   -->
-    <link rel="preload" as="image" href="assets/images/hero-bg.svg" />
-    <link rel="preload" as="image" href="assets/images/hero-banner-1.html" />
-    <link rel="preload" as="image" href="assets/images/hero-banner-2.html" />
-    <link rel="preload" as="image" href="assets/images/hero-shape-1.svg" />
-    <link rel="preload" as="image" href="assets/images/hero-shape-2.png" />
-  </head>
+  <link rel="preload" as="image" href="assets/images/hero-bg.svg" />
+  <link rel="preload" as="image" href="assets/images/hero-banner-1.html" />
+  <link rel="preload" as="image" href="assets/images/hero-banner-2.html" />
+  <link rel="preload" as="image" href="assets/images/hero-shape-1.svg" />
+  <link rel="preload" as="image" href="assets/images/hero-shape-2.png" />
+</head>
 
-  <body id="top">
-    <!-- 
+<body id="top">
+  <!-- 
     - #HEADER
   -->
 
-    <header class="header" data-header>
-      <div class="container">
-        <a href="#" class="logo">
-          <img
-            src="assets/images/logo.png"
-            width="200"
-            height="100"
-            alt="defitech logo"
-          />
-        </a>
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="assets/images/logo.png" width="200" height="100" alt="defitech logo" />
+      </a>
 
-        <nav class="navbar" data-navbar>
-          <div class="wrapper">
-            <a href="#" class="logo">
-              <img
-                src="assets/images/logo.png"
-                width="100"
-                height="80"
-                alt="defitech logo"
-              />
-            </a>
+      <nav class="navbar" data-navbar>
+        <div class="wrapper">
+          <a href="#" class="logo">
+            <img src="assets/images/logo.png" width="100" height="80" alt="defitech logo" />
+          </a>
 
-            <button
-              class="nav-close-btn"
-              aria-label="close menu"
-              data-nav-toggler
-            >
-              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-            </button>
-          </div>
-
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <a href="#home" class="navbar-link" data-nav-link>Home</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="#about" class="navbar-link" data-nav-link>About us</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="#courses" class="navbar-link" data-nav-link>
-                Events</a
-              >
-            </li>
-
-            <li class="navbar-item">
-              <a href="#blog" class="navbar-link" data-nav-link
-                >Programs</a
-              >
-            </li>
-
-            <li class="navbar-item">
-              <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
-            </li>
-          </ul>
-        </nav>
-
-        <div class="header-actions">
-          <button
-            class="header-action-btn"
-            aria-label="open menu"
-            data-nav-toggler
-          >
-            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
           </button>
         </div>
 
-        <div class="overlay" data-nav-toggler data-overlay></div>
-      </div>
-    </header>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
 
-    <main>
-      <article>
-        <!-- 
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About us</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#courses" class="navbar-link" data-nav-link>
+              Events</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Programs</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!-- 
         - #HERO
       -->
 
-        <section
-          class="section hero has-bg-image"
-          id="home"
-          aria-label="home"
-          style="background-image: url('assets/images/pic1.jpg')"
-        >
-          <div class="container">
-            <div class="hero-content"><br>
-              <h1
-                class="h2 section-title"
-                style="margin-top: -50px; color: white"
-              > 
-                Raising Communities,
-                <span class="span">Enhancing Lives. </span>
-                
-              </h1>
+      <section class="section hero has-bg-image" id="home" aria-label="home"
+        style="background-image: url('assets/images/pic1.jpg')">
+        <div class="container">
+          <div class="hero-content"><br>
+            <h1 class="h2 section-title" style="margin-top: -50px; color: white">
+              Raising Communities,
+              <span class="span">Enhancing Lives. </span>
+            </h1>
 
-              <p class="hero-text" style="color: white">
-                Thrive Together Initiative is a registered community-based organization in Uganda.
-              </p>
+            <p class="hero-text" style="color: white">
+              Thrive Together Initiative is a registered community-based organization in Uganda.
+            </p>
 
-              <a class='btn has-before' href='#about'>
-                <span class="span"> Discover Our Work</span>
-                <ion-icon
-                  name="arrow-forward-outline"
-                  aria-hidden="true"
-                ></ion-icon>
-              </a>
+            <a class='btn has-before' href='#about'>
+              <span class="span"> Discover Our Work</span>
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <figure class="hero-banner">
+            <div class="img-holder one" style="--width: 270; --height: 300">
+              <img src="assets/images/pic3.jpg" width="270" height="300" alt="hero banner" class="img-cover" />
             </div>
 
-            <figure class="hero-banner">
-              <div class="img-holder one" style="--width: 270; --height: 300">
-                <img
-                  src="assets/images/pic3.JPG"
-                  width="270"
-                  height="300"
-                  alt="hero banner"
-                  class="img-cover"
-                />
-              </div>
+            <div class="img-holder two" style="--width: 240; --height: 370">
+              <img src="assets/images/pic2.jpg" width="240" height="370" alt="hero banner" class="img-cover" />
+            </div>
 
-              <div class="img-holder two" style="--width: 240; --height: 370">
-                <img
-                  src="assets/images/pic2.jpg"
-                  width="240"
-                  height="370"
-                  alt="hero banner"
-                  class="img-cover"
-                />
-              </div>
+          </figure>
+        </div>
+      </section>
 
-            </figure>
-          </div>
-        </section>
-
-        <!-- 
+      <!-- 
         - #CATEGORY
       -->
 
-        <section class="section category" aria-label="category" id="about">
-          <div class="container">
-            <p class="section-subtitle"></p>
+      <section class="section category" aria-label="category" id="about">
+        <div class="container">
+          <p class="section-subtitle"></p>
 
-            <h2 class="h2 section-title">
-              Who We Are
-            </h2>
+          <h2 class="h2 section-title">
+            Who We Are
+          </h2>
 
-            <p class="section-text"></p>
-<h3>
-  Thrive Together Initiative is a registered community-based organization in Uganda. We empower women, youth, and persons with disabilities through entrepreneurship, financial literacy, and skills development building sustainable pathways out of poverty.
-</h3>
-          </div>
-        </section>
+          <p class="section-text"></p>
+          <h3>
+            Thrive Together Initiative is a registered community-based organization in Uganda. We empower women, youth,
+            and persons with disabilities through entrepreneurship, financial literacy, and skills development building
+            sustainable pathways out of poverty.
+          </h3>
+        </div>
+      </section>
 
-        <!-- 
+      <!-- 
         - #ABOUT
       -->
 
-        <section class="section about" id="about" aria-label="about">
-          <div class="container">
-            <figure class="about-banner">
-              <div class="img-holder" style="--width: 520; --height: 370">
-                <img
-                  src="assets/images/pic4.jpeg"
-                  width="520"
-                  height="370"
-                  loading="lazy"
-                  alt="about banner"
-                  class="img-cover"
-                />
-              </div>
-            </figure>
-            
-            <div class="about-content">
-              <h2 class="h2 section-title" style="text-align: center;"> About us </h2>
-
-              <p class="section-text">
-                We are a legally registered Community-Based Organization (Reg. No. MKN/CBO/5064/2025) serving communities in Kyampisi Sub-County, Mukono Municipality, and Namataba Town Council in Mukono District, Uganda.
-                <br />
-                We are currently running the Magic Hands Initiative which empowers marginalized rural populations, particularly youth, women, and persons with disabilities (PWDs), by strengthening their entrepreneurial and business development skills through financial literacy, entrepreneurship training, digital literacy, business mentorship, and value-added skills training.  
-                <br />
-                <br />
-
-              <img
-                src="assets/images/about-shape-4.svg"
-                width="100"
-                height="100"
-                loading="lazy"
-                alt=""
-                class="shape about-shape-4"
-              />
-                <a class='btn has-before' href='index1.html'>
-                <span class="span">Objectives & mission </span>
-                <ion-icon
-                  name="arrow-forward-outline"
-                  aria-hidden="true"
-                ></ion-icon>
-              </a>
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+          <figure class="about-banner">
+            <div class="img-holder" style="--width: 520; --height: 370">
+              <img src="assets/images/pic4.jpeg" width="520" height="370" loading="lazy" alt="about banner"
+                class="img-cover" />
             </div>
+          </figure>
+
+          <div class="about-content">
+            <h2 class="h2 section-title" style="text-align: center;"> About us </h2>
+
+            <p class="section-text">
+              We are a legally registered Community-Based Organization (Reg. No. MKN/CBO/5064/2025) serving communities
+              in Kyampisi Sub-County, Mukono Municipality, and Namataba Town Council in Mukono District, Uganda.
+              <br />
+              We are currently running the Magic Hands Initiative which empowers marginalized rural populations,
+              particularly youth, women, and persons with disabilities (PWDs), by strengthening their entrepreneurial
+              and business development skills through financial literacy, entrepreneurship training, digital literacy,
+              business mentorship, and value-added skills training.
+              <br />
+              <br />
+
+              <img src="assets/images/about-shape-4.svg" width="100" height="100" loading="lazy" alt=""
+                class="shape about-shape-4" />
+              <a class='btn has-before' href='index1.html'>
+                <span class="span">Objectives & mission </span>
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+              </a>
           </div>
+        </div>
 
-        </section>
+      </section>
 
-        <!-- 
+      <!-- 
         - #COURSE
       -->
 
-        <section class="section course" id="events" aria-label="course">
-          <div class="container">
-            <h2 class="h2 section-title">Events</h2>
+      <section class="section course" id="events" aria-label="course">
+        <div class="container">
+          <h2 class="h2 section-title">Events</h2>
 
-            <p class="section-subtitle">
-              Check out past events related to Thrive Together Initiative !
-            </p>
+          <p class="section-subtitle">
+            Check out past events related to Thrive Together Initiative !
+          </p>
 
-            <ul class="grid-list">
+          <ul class="grid-list">
 
-              <li>
-                <div class="course-card">
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 370; --height: 220"
-                  >
-                    <img
-                      src="assets/images/ev2.jpeg"
-                      width="370"
-                      height="220"
-                      loading="lazy"
-                      alt="img1"
-                      class="img-cover"
-                    />
-                  </figure>
-                </div>
-              </li>
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220">
+                  <img src="assets/images/ev2.jpeg" width="370" height="220" loading="lazy" alt="img1"
+                    class="img-cover" />
+                </figure>
+              </div>
+            </li>
 
-              <li>
-                <div class="course-card">
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 370; --height: 220"
-                  >
-                    <img
-                      src="assets/images/ev1.jpg"
-                      width="370"
-                      height="220"
-                      loading="lazy"
-                      alt="img1"
-                      class="img-cover"
-                    />
-                  </figure>
-                </div>
-              </li>
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220">
+                  <img src="assets/images/ev1.jpg" width="370" height="220" loading="lazy" alt="img1"
+                    class="img-cover" />
+                </figure>
+              </div>
+            </li>
 
-              <li>
-                <div class="course-card">
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 370; --height: 220"
-                  >
-                    <img
-                      src="assets/images/ev3.jpg"
-                      width="370"
-                      height="220"
-                      loading="lazy"
-                      alt="Java Programming Masterclass for Software Developers"
-                      class="img-cover"
-                    />
-                  </figure>
-                </div>
-              </li>
-            </ul>
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220">
+                  <img src="assets/images/ev3.jpg" width="370" height="220" loading="lazy"
+                    alt="Java Programming Masterclass for Software Developers" class="img-cover" />
+                </figure>
+              </div>
+            </li>
+          </ul>
 
-            <a class='btn has-before' href='index2.html'>
-              <span class="span">Read more about our events </span>
+          <a class='btn has-before' href='index2.html'>
+            <span class="span">Read more about our events </span>
 
-              <ion-icon
-                name="arrow-forward-outline"
-                aria-hidden="true"
-              ></ion-icon>
-            </a>
-          </div>
-        </section>
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+        </div>
+      </section>
 
 
-        <!-- 
+      <!-- 
         - #VIDEO
       -->
 
-        <section class="video has-bg-image" aria-label="video">
-          <div class="container">
-            <div class="video-card">
-              <div
-                class="video-banner img-holder has-after"
-                style="--width: ; --height: "
-              >
-                <img
-                  src="assets/images/yt.jpg"
-                  width="970"
-                  height="550"
-                  loading="lazy"
-                  alt="video banner"
-                  class="img-cover"
-                />
-              </div>
+      <section class="video has-bg-image" aria-label="video">
+        <div class="container">
+          <div class="video-card">
+            <div class="video-banner img-holder has-after" style="--width: ; --height: ">
+              <img src="assets/images/yt.jpg" width="970" height="550" loading="lazy" alt="video banner"
+                class="img-cover" />
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!-- 
+      <!-- 
         - #STATE
       -->
 
-        <section class="section stats" aria-label="stats">
-          <div class="container">
-            <li>
-              <div class="stats-card" style="--color: 170, 75%, 41%">
-                <h3 class="card-title">
-                  What make us different ?
-                </h3>
-                <br />
+      <section class="section stats" aria-label="stats">
+        <div class="container">
+          <li>
+            <div class="stats-card" style="--color: 170, 75%, 41%">
+              <h3 class="card-title">
+                What make us different ?
+              </h3>
+              <br />
 
-                <p class="card-text">
-1. Inclusive by Design: We intentionally reach those often left behind, i.e., rural women, PWDs, and 
-out-of-school youth, creating opportunities where few exist. <br> <br>
-2. Hands-on & Localized: Training is practical, culturally relevant, and accessible within the 
-communities we serve. <br> <br>
-3. End-to-End Support: We go beyond training by offering business mentorship, market access, 
-and a safe innovation space that supports long-term growth. <br> <br>
-4. Community-Owned Solutions: Our programs are designed with the community, not for them, 
-ensuring ownership, relevance, and lasting impact.
-                </p>
-              </div>
-            </li>
-          </div>
-        </section>
+              <p class="card-text">
+                1. Inclusive by Design: We intentionally reach those often left behind, i.e., rural women, PWDs, and
+                out-of-school youth, creating opportunities where few exist. <br> <br>
+                2. Hands-on & Localized: Training is practical, culturally relevant, and accessible within the
+                communities we serve. <br> <br>
+                3. End-to-End Support: We go beyond training by offering business mentorship, market access,
+                and a safe innovation space that supports long-term growth. <br> <br>
+                4. Community-Owned Solutions: Our programs are designed with the community, not for them,
+                ensuring ownership, relevance, and lasting impact.
+              </p>
+            </div>
+          </li>
+        </div>
+      </section>
 
-        <!-- 
+      <!-- 
         - #BLOG
       -->
 
-        <section
-          class="section blog has-bg-image"
-          id="blog"
-          aria-label="blog"
-          style="background-image: url('assets/images/blog-bg.svg')"
-        >
-          <div class="container">
+      <section class="section blog has-bg-image" id="blog" aria-label="blog"
+        style="background-image: url('assets/images/blog-bg.svg')">
+        <div class="container">
 
-            <h2 class="h2 section-title">Discover our Programs and Activities </h2>
+          <h2 class="h2 section-title">Discover our Programs and Activities </h2>
 
-            <ul class="grid-list">
-              <li>
-                <div class="blog-card">
-                  <figure
-                    class="card-banner img-holder has-after"
-                    style="--width: 370; --height: 370"
-                  >
-                    <img
-                      src="assets/images/eve3.JPG"
-                      width="370"
-                      height="370"
-                      loading="lazy"
-                      class="img-cover"
-                    />
-                  </figure>
+          <ul class="grid-list">
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370">
+                  <img src="assets/images/eve3.JPG" width="370" height="370" loading="lazy" class="img-cover" />
+                </figure>
 
-                  <div class="card-content">
-                    <h3 class="h3">
-                      <a class='card-title'>Entrepreneurship & Business Skills Training.
-                      </a>
-                    </h3>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class='card-title'>Entrepreneurship & Business Skills Training.
+                    </a>
+                  </h3>
 
-                    <ul class="card-meta-list"></ul>
+                  <ul class="card-meta-list"></ul>
 
-                    <p class="card-text">
-                      We have empowered 248 individuals, including 
-youth, women, and persons with disabilities, through practical entrepreneurship and business skills 
-training. Our sessions go beyond theory, equipping participants with hands-on value-addition 
-techniques and foundational knowledge to start and grow sustainable enterprises. Each trainee 
-leaves not just with skills, but with renewed confidence and a real pathway to economic 
-independence.
-                    </p>
-                  </div>
+                  <p class="card-text">
+                    We have empowered 248 individuals, including
+                    youth, women, and persons with disabilities, through practical entrepreneurship and business skills
+                    training. Our sessions go beyond theory, equipping participants with hands-on value-addition
+                    techniques and foundational knowledge to start and grow sustainable enterprises. Each trainee
+                    leaves not just with skills, but with renewed confidence and a real pathway to economic
+                    independence.
+                  </p>
                 </div>
-              </li>
-
-              <li>
-                <div class="blog-card">
-                  <figure
-                    class="card-banner img-holder has-after"
-                    style="--width: 370; --height: 370"
-                  >
-                    <img
-                      src="assets/images/eve2.JPG"
-                      width="370"
-                      height="370"
-                      loading="lazy"
-                      alt="Become A Better Blogger: Content Planning"
-                      class="img-cover"
-                    />
-                  </figure>
-
-                  <div class="card-content">
-                    <h3 class="h3">
-                      <a class="card-title"
-                        >Business Mentorship & Coaching
-                      </a>
-                    </h3>
-
-                    <ul class="card-meta-list"></ul>
-
-                    <p class="card-text">
-                       We are actively building partnerships with local experts and 
-professionals to launch a robust business mentorship program tailored for grassroots 
-entrepreneurs. This initiative will connect aspiring business owners with seasoned mentors, 
-offering guidance on strategy, operations, and sustainable growth. Our first mentorship cohort is 
-set to launch in August 2025, creating a valuable platform for real-world learning, accountability, 
-and entrepreneurial success.
-                    </p>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <div class="blog-card">
-                  <figure
-                    class="card-banner img-holder has-after"
-                    style="--width: 370; --height: 370"
-                  >
-                    <img
-                      src="assets/images/eve1.jpg"
-                      width="370"
-                      height="370"
-                      loading="lazy"
-                      alt="Become A Better Blogger: Content Planning"
-                      class="img-cover"
-                    />
-                  </figure>
-
-                  <div class="card-content">
-
-                    <h3 class="h3">
-                      <a class="card-title"
-                        >Market Linkages & Product Exhibitions</a
-                      >
-                    </h3>
-
-                    <ul class="card-meta-list"></ul>
-                    <p class="card-text">
-                       We have successfully participated in two market linkage 
-events this year, providing our beneficiaries with the opportunity to showcase their products, gain 
-real-time customer feedback, and learn from other entrepreneurs. These events not only increased their visibility but also offered invaluable insights into product improvement, packaging, and market 
-trends, bridging the gap between small-scale producers and larger markets. 
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <!--Témoignages-->
-
-        <section class="containerr">
-          <div id="plans" class="card__container swiper">
-            <h2 class="h2 section-title" >Future Plans</h2>
-            <br />
-            <p class="section-subtitle">
-            <i class="ri-open-arm-line"></i>
-            </p>
-
-            <div class="card__content">
-              <div class="swiper-wrapper">
-                <article class="card__article swiper-slide">
-                  <div class="card__image">
-                    <img
-                      src="assets/images/plan.jpg"
-                      alt="image"
-                      class="card__img"
-                    />
-                    <div class="card__shadow"></div>
-                  </div>
-
-                  <div class="card__data">
-                    <p class="card__description">
-                      We plan to establish an Entrepreneurs’ Safe Space in Kabembe to help young people turn ideas into sustainable businesses with free tools, training, and mentorship.
-                    </p>
-                  </div>
-                </article>
-                <article class="card__article swiper-slide">
-                  <div class="card__image">
-                    <img
-                      src="assets/images/plan.jpg"
-                      alt="image"
-                      class="card__img"
-                    />
-                    <div class="card__shadow"></div>
-                  </div>
-
-                  <div class="card__data">
-                    <p class="card__description">
-                                           We will also launch a revolving microcredit facility, offering small, low-barrier loans to women, youth, and persons with disabilities.
-
-                    </p>
-                  </div>
-                </article>
-
-                <article class="card__article swiper-slide">
-                  <div class="card__image">
-                    <img
-                      src="assets/images/plan.jpg"
-                      alt="image"
-                      class="card__img"
-                    />
-                    <div class="card__shadow"></div>
-                  </div>
-
-                  <div class="card__data">
-                    <p class="card__description">
-                                            Both initiatives aim to reduce start-up costs, foster innovation, and create lasting opportunities for grassroots entrepreneurs.
-
-                    </p>
-                  </div>
-                </article>
               </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370">
+                  <img src="assets/images/eve2.JPG" width="370" height="370" loading="lazy"
+                    alt="Become A Better Blogger: Content Planning" class="img-cover" />
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Business Mentorship & Coaching
+                    </a>
+                  </h3>
+
+                  <ul class="card-meta-list"></ul>
+
+                  <p class="card-text">
+                    We are actively building partnerships with local experts and
+                    professionals to launch a robust business mentorship program tailored for grassroots
+                    entrepreneurs. This initiative will connect aspiring business owners with seasoned mentors,
+                    offering guidance on strategy, operations, and sustainable growth. Our first mentorship cohort is
+                    set to launch in August 2025, creating a valuable platform for real-world learning, accountability,
+                    and entrepreneurial success.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370">
+                  <img src="assets/images/eve1.jpg" width="370" height="370" loading="lazy"
+                    alt="Become A Better Blogger: Content Planning" class="img-cover" />
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a class="card-title">Market Linkages & Product Exhibitions</a>
+                  </h3>
+
+                  <ul class="card-meta-list"></ul>
+                  <p class="card-text">
+                    We have successfully participated in two market linkage
+                    events this year, providing our beneficiaries with the opportunity to showcase their products, gain
+                    real-time customer feedback, and learn from other entrepreneurs. These events not only increased
+                    their visibility but also offered invaluable insights into product improvement, packaging, and
+                    market
+                    trends, bridging the gap between small-scale producers and larger markets.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Témoignages-->
+
+      <section class="containerr">
+        <div id="plans" class="card__container swiper">
+          <h2 class="h2 section-title">Future Plans</h2>
+          <br />
+          <p class="section-subtitle">
+            <i class="ri-open-arm-line"></i>
+          </p>
+
+          <div class="card__content">
+            <div class="swiper-wrapper">
+              <article class="card__article swiper-slide">
+                <div class="card__image">
+                  <img src="assets/images/plan.jpg" alt="image" class="card__img" />
+                  <div class="card__shadow"></div>
+                </div>
+
+                <div class="card__data">
+                  <p class="card__description">
+                    We plan to establish an Entrepreneurs’ Safe Space in Kabembe to help young people turn ideas into
+                    sustainable businesses with free tools, training, and mentorship.
+                  </p>
+                </div>
+              </article>
+              <article class="card__article swiper-slide">
+                <div class="card__image">
+                  <img src="assets/images/plan.jpg" alt="image" class="card__img" />
+                  <div class="card__shadow"></div>
+                </div>
+
+                <div class="card__data">
+                  <p class="card__description">
+                    We will also launch a revolving microcredit facility, offering small, low-barrier loans to women,
+                    youth, and persons with disabilities.
+
+                  </p>
+                </div>
+              </article>
+
+              <article class="card__article swiper-slide">
+                <div class="card__image">
+                  <img src="assets/images/plan.jpg" alt="image" class="card__img" />
+                  <div class="card__shadow"></div>
+                </div>
+
+                <div class="card__data">
+                  <p class="card__description">
+                    Both initiatives aim to reduce start-up costs, foster innovation, and create lasting opportunities
+                    for grassroots entrepreneurs.
+
+                  </p>
+                </div>
+              </article>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!--Partners
+      <!--Partners
 
      <section>
       <div class="slider-area">
@@ -605,163 +464,137 @@ trends, bridging the gap between small-scale producers and larger markets.
 
      </section>-->
 
-        <!--=============== SWIPER JS ===============-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
 
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-      </article>
-    </main>
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+    </article>
+  </main>
 
-    <!-- 
+  <!-- 
     - #FOOTER
   -->
 
-    <footer
-      class="footer"
-      id="contact"
-      style="background-image: url('assets/images/footer-bg.png')"
-    >
-      <div class="footer-top section">
-        <div class="container grid-list">
-          <div class="footer-brand">
+  <footer class="footer" id="contact" style="background-image: url('assets/images/footer-bg.png')">
+    <div class="footer-top section">
+      <div class="container grid-list">
+        <div class="footer-brand">
 
-            <h3 class="footer-brand-text">
-              <strong>Raising Communities, Enhancing Lives.</strong>
-            </h3>
+          <h3 class="footer-brand-text">
+            <strong>Raising Communities, Enhancing Lives.</strong>
+          </h3>
 
-            <div class="wrapper">
-  <span class="span">Adresse&nbsp;:</span>
-  <a
-    href="https://www.bing.com/maps?&ty=30&q=Mukono%2C%20UG&satid=id.sid%3Ae0a8ba6d-5374-4da6-9d17-07c593e2389f&vdpid=7340811609645776897&mb=0.356213~32.752855~0.350195~32.762167&cardbg=%23F98745&dt=1756389600000&tt=Mukono%2C%20Centre%2C%20Ouganda&tsts0=%2526ty%253D30%2526q%253DMukono%25252C%252520UG%2526satid%253Did.sid%25253Ae0a8ba6d-5374-4da6-9d17-07c593e2389f%2526vdpid%253D7340811609645776897%2526mb%253D0.356213~32.752855~0.350195~32.762167%2526cardbg%253D%252523F98745%2526dt%253D1756389600000&tstt0=Mukono%2C%20Centre%2C%20Ouganda&cp=0.353199~32.754837&lvl=16.99&pi=0&ftst=0&ftics=False&v=2&sV=2&form=S00027"
-    class="footer-link" target="_blank" rel="noopener" style="color: #1C2CA0;">
-    Kabembe- Kyampisi, Mukono, UG
-  </a>
-</div>
-
-
-            <div class="wrapper">
-              <span class="span">Tel:</span>
-
-              <a href="tel:+256789176474" class="footer-link"
-                >(+256) 7 89 17 64 74</a
-              >
-            </div>
-
-            <div class="wrapper">
-              <span class="span">Email:</span>
-
-              <a href="mailto:thrivetogetherinitiative2025@gmail.com" class="footer-link"
-                >
-thrivetogetherinitiative2025@gmail.com </a
-              >
-            </div>
+          <div class="wrapper">
+            <span class="span">Adresse&nbsp;:</span>
+            <a href="https://www.bing.com/maps?&ty=30&q=Mukono%2C%20UG&satid=id.sid%3Ae0a8ba6d-5374-4da6-9d17-07c593e2389f&vdpid=7340811609645776897&mb=0.356213~32.752855~0.350195~32.762167&cardbg=%23F98745&dt=1756389600000&tt=Mukono%2C%20Centre%2C%20Ouganda&tsts0=%2526ty%253D30%2526q%253DMukono%25252C%252520UG%2526satid%253Did.sid%25253Ae0a8ba6d-5374-4da6-9d17-07c593e2389f%2526vdpid%253D7340811609645776897%2526mb%253D0.356213~32.752855~0.350195~32.762167%2526cardbg%253D%252523F98745%2526dt%253D1756389600000&tstt0=Mukono%2C%20Centre%2C%20Ouganda&cp=0.353199~32.754837&lvl=16.99&pi=0&ftst=0&ftics=False&v=2&sV=2&form=S00027"
+              class="footer-link" target="_blank" rel="noopener" style="color: #1C2CA0;">
+              Kabembe- Kyampisi, Mukono, UG
+            </a>
           </div>
 
-          <ul class="footer-list">
-            <li>
-              <p class="footer-list-title">Links</p>
-            </li>
 
-            <li>
-              <a href="#" class="footer-link">Home</a>
-            </li>
+          <div class="wrapper">
+            <span class="span">Tel:</span>
 
-            <li>
-              <a href="#about" class="footer-link">About</a>
-            </li>
+            <a href="tel:+256789176474" class="footer-link">(+256) 7 89 17 64 74</a>
+          </div>
 
-            <li>
-              <a href="#events" class="footer-link">Events</a>
-            </li>
+          <div class="wrapper">
+            <span class="span">Email:</span>
 
-            
-          </ul>
-
-          <ul class="footer-list">
-            <li>
-              <p class="footer-list-title" style="color: #F5A623;">...</p>
-            </li>
-            <li>
-              <a href="#blog" class="footer-link">Programs</a>
-            </li>
-
-            
-            <li>
-              <a href="#plans" class="footer-link">Future plans</a
-              >
-            </li>
-            
-            <li >
-              <a href='https://www.linkedin.com/company/thrive-together-initiative/'  class="footer-link" style="color: #1C2CA0";><i class="ri-linkedin-box-fill"></i> Linkedin</a>
-            </li>
-          </ul>
-
-          <div class="footer-list">
-            <p class="footer-list-title" style="color: #F5A623;"><i class="ri-hand-heart-line"></i> </p>
-
-            <p class="footer-list-text">
-              Please support our work by donating today. Whatever you can give will make a real difference.
-            </p>
-
-            <form action=" https://wa.me/qr/XUC57OMHGAHMH1 "  class="newsletter-form">
-              <button type="submit" class="btn has-before">
-                <span class="span">Donate</span>
-
-                <ion-icon
-                  name="arrow-forward-outline"
-                  aria-hidden="true"
-                ></ion-icon>
-              </button>
-              
-            </form>
-
+            <a href="mailto:thrivetogetherinitiative2025@gmail.com" class="footer-link">
+              thrivetogetherinitiative2025@gmail.com </a>
           </div>
         </div>
-      </div>
 
-      <div class="footer-bottom">
-        <div class="container">
-          <p class="copyright">
-            Copyright 2025 All Rights Reserved by
-            <a
-              href="https://www.linkedin.com/in/irène-amedji-🇹🇬-⭐️-388861243/"
-              class="copyright-link"
-              >irouKode</a
-            >
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="footer-link">About</a>
+          </li>
+
+          <li>
+            <a href="#events" class="footer-link">Events</a>
+          </li>
+
+
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title" style="color: #F5A623;">...</p>
+          </li>
+          <li>
+            <a href="#blog" class="footer-link">Programs</a>
+          </li>
+
+
+          <li>
+            <a href="#plans" class="footer-link">Future plans</a>
+          </li>
+
+          <li>
+            <a href='https://www.linkedin.com/company/thrive-together-initiative/' class="footer-link"
+              style="color: #1C2CA0" ;><i class="ri-linkedin-box-fill"></i> Linkedin</a>
+          </li>
+        </ul>
+
+        <div class="footer-list">
+          <p class="footer-list-title" style="color: #F5A623;"><i class="ri-hand-heart-line"></i> </p>
+
+          <p class="footer-list-text">
+            Please support our work by donating today. Whatever you can give will make a real difference.
           </p>
+
+          <form action=" https://wa.me/qr/XUC57OMHGAHMH1 " class="newsletter-form">
+            <button type="submit" class="btn has-before">
+              <span class="span">Donate</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+          </form>
+
         </div>
       </div>
-    </footer>
+    </div>
 
-    <!-- 
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          Copyright 2025 All Rights Reserved by
+          <a href="https://www.linkedin.com/in/irène-amedji-🇹🇬-⭐️-388861243/" class="copyright-link">irouKode</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 
     - #BACK TO TOP
   -->
 
-    <a
-      href="#top"
-      class="back-top-btn"
-      aria-label="back top top"
-      data-back-top-btn
-    >
-      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
-    </a>
+  <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
 
-    <!-- 
+  <!-- 
     - custom js link
   -->
-    <script src="assets/js/script.js" defer></script>
+  <script src="assets/js/script.js" defer></script>
 
-    <!-- 
+  <!-- 
     - ionicon link
   -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
